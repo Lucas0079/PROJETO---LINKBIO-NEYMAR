@@ -1,0 +1,193 @@
+
+/* Resete global */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* CENTRALIZANDO AS SECTIONS */
+
+
+
+/* Estilizando a seção banner */
+
+.secao-banner{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilizando o vídeo */
+
+.secao-banner video{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Estilando a foto do neymar */
+
+.container-foto{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    background-image: url('ASSETS/neymar.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container-foto::before{
+    content: "";
+    width: 215px;
+    height: 215px;
+    position: absolute;
+    background: linear-gradient(90deg, #ffdf00, #009c3b);
+    border-radius: 100%;
+    z-index: -1;
+}
+
+
+
+/* Estilizando o nome */
+
+.nome-neymar{
+    font-weight: bold;
+    font-size: 36px;
+    color: #fff;
+    text-shadow: 3px 6px 1px black;
+    position: relative;
+}
+
+.nome-neymar::before{
+    content: "";
+    position: absolute;
+    width: 37px;
+    height: 5px;
+    background: linear-gradient(90deg, #ffdf00, #009c3b);
+    bottom: -8px;
+    left: 2px;
+    border-radius: 4px;
+}
+
+.nome-neymar::after{
+    content: "";
+    width: 24px;
+    height: 25px;
+    position: absolute;
+    background-image: url("ASSETS/verificado.png");
+    top: 15px;
+    right: -26px;
+}
+
+/* Estilizando os links */
+
+.links-sociais{
+    width: 768px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.links-sociais a{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+    text-align: center;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.77);
+    border-radius: 20px;
+    color: white;
+}
+
+.links-sociais a:hover{
+    background-color: #ffffff93;
+    color: black;
+}
+
+.icones{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.icones img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 20px;
+}
+
+
+/* Segunda seção */
+
+.secao-estatistica{
+    width: 100%;
+    height: 100vh;
+    background-image: url('ASSETS/imagem-de-fundo.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.secao-estatistica h2{
+    font-weight: bold;
+    font-size: 50px;
+    color: #fff;
+    text-shadow: 3px 4px 1px black;
+    margin-bottom: 40px;
+}
+
+.tabela-container td, th{
+    padding: 20px;
+}
+
+.tabela-container tr{
+    text-align: center;
+}
+
+.linha-corpo img{
+    width: 40px;
+    height: 40px;
+    margin: 0px 10px;
+}
+
+.linha-corpo .bloco-times{
+    display: flex;
+    align-items: center;
+}
+
+.tabela-container{
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+
+.tabela-container tr:nth-child(odd){
+    background-color: #000000cc;
+}
+
+.tabela-container tr:nth-child(even){
+    background-color: rgba(255, 255, 255, 0.516);
+    color: black;
+}

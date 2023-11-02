@@ -1,0 +1,103 @@
+
+ESPECIFICAÇÕES DO PROJETO
+
+1- O site deve ter um vídeo que será aplicado como plano de fundo da Seção Banner
+O vídeo deve ser executado automaticamente, em looping e não deve reproduzir áudio.
+
+
+2- A imagem que será usada como logo da Seção Banner deve ter um formato circular e ter uma borda com uma cor gradiente
+
+3- O título do site deve ter uma "tarja" com cor gradiente, posicionada abaixo das letras "Ne" e uma imagem de "perfil verificado" posicionada à direita do título
+
+5- A cor de fundo de um link deve ser modificada sempre que um usuário passar o cursor do mouse sobre o link
+
+
+6- Na Seção Estatísticas, uma imagem deve ser aplicada como plano de fundo e também possuir o efeito Parallax
+
+
+7- O título da Seção Banner e o subtítulo da Seção Estatísticas devem ter um efeito de sombreamento
+
+
+8- A tabela da Seção Estatísticas terá as informações sobre o Neymar Jr.
+
+
+9- As linhas da tabela devem ter um efeito "zebrado"
+
+10- O projeto deve utilizar as imagens fornecidas
+
+	No desenvolvimento do projeto serão utilizados treze imagens:
+
+		Uma imagem utilizada como logo da página;
+		Uma imagem utilizada como "perfil verificado" no título da Seção Banner;
+		Cinco imagens utilizadas como ícones dos links;
+		Uma imagem utilizada como plano de fundo na Seção Estatísticas;
+		Cinco imagens utilizadas como ícones na primeira coluna da tabela.
+
+11 - Especificações do layout
+
+
+DICAS DE COMO INICIAR O PROJETO
+
+1. ENTENDER AS ESPECIFICAÇÕES
+
+2. CRIAR O DOCUMENTO DE APOIO
+
+3. ESCREVER O CÓDIGO
+
+
+
+Especificações do layout
+
+	Fontes do Projeto
+
+		Ysabeau Infant (FONTE DO TÍTULO DA SEÇÃO BANNER E DOS LINKS)
+
+		Montserrat (FONTE DO SUBTÍTULO E DA TABELA NA SEÇÃO ESTATÍSTICAS)
+
+		CÓDIGO DAS FONTES LINKADAS - <link rel="preconnect" href="https://fonts.googleapis.com">
+					     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+					     <link href="https://fonts.googleapis.com/css2?family=Ysabeau+Infant&display=swap" rel="stylesheet">
+					     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+		
+		CÓDIGO HTML DAS FONTES - font-family: 'Montserrat', sans-serif;
+					 font-family: 'Ysabeau Infant', sans-serif;
+
+	PALETA DE CORES
+
+		#fff - COR DOS TEXTOS
+		#ffffffcc - ????????
+		#000000 - SOMBRA DOS TEXTOS
+		#000000cc - COR DE FUNDO DOS TD
+		#0200006e - COR DE FUNDO DOS LINKS
+		#ffdf00 - BORDA DA FOTO DO NEYMAR (GRADIANTE)
+		#009c3b - BORDA DA FOTO DO NEYMAR (GRADIANTE)
+
+	Conhecendo as dimensões do layout
+
+
+		1 - A Seção Banner deve ocupar a largura total da tela e ter uma altura de 100vh, garantindo que o vídeo ocupe todo o espaço disponível na seção.
+
+		2 - A imagem de perfil da Seção Banner terá largura e altura de 200px e ficará espaçada a 20px (gap) do título.
+
+		3 - O container dos links terá uma largura de 768px e ficará espaçado a 40px do container de informações
+
+		4 - Os links ocuparão toda a largura do container, terão um espaçamento interno de 10px e ficarão espaçados a 20px (gap) entre si.
+
+		5 - A Seção Estatística deve ocupar a largura total da tela e ter uma altura de 100vh, garantindo que a imagem de fundo ocupe todo o espaço disponível na seção
+
+		6- Haverá um espaço de 40px (gap) entre o subtítulo e a tabela da Seção Estatística
+
+		7- Todas as células da tabela terão um espaçamento interno de 20px
+
+		8- As células da primeira coluna terão seus elementos alinhados lado a lado na horizontal, com cada imagem tendo uma largura de 30px e um espaçamento de 10px (gap) entre elas e os textos
+
+		9- Os elementos da página devem estar centralizados
+
+		
+
+	
+
+
+
+
+
